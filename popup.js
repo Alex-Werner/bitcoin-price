@@ -39,7 +39,7 @@ function toggleOptions(){
 function loadPopup() {
     window.onload = function(){
         displayStuff()
-        var editorExtensionId = "ogmiolejjgikhpbhnbnkdlhopfknldcb";
+        var editorExtensionId = "koknbglnkcgokmddnlaclabaljfahofa";
     
         chrome.runtime.sendMessage({type: "priceHistory"},
             function (response) {
